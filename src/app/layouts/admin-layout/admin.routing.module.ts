@@ -5,12 +5,7 @@ import { DashboardComponent } from '../../dashboard/dashboard.component';
 
 export const AdminLayoutRoutes: Routes = [
 
-    {
-      path: 'dashboard',
-      children: [ {
-        path: 'dashboard',
-        component: DashboardComponent
-    }]}, 
+
     // path: '',
     // children: [ {
     //   path: 'userprofile',
